@@ -1,2 +1,5 @@
 # codemirror-lint-eslint
-CodeMirror Lint addon to use ESLint
+
+Open index.html to use ESLint to validate JavaScript content of a CodeMirror editor :
+
+

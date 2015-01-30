@@ -10,11 +10,13 @@
 <script src="resources/codemirror/mode/javascript/javascript.js"></script>
 <script src="resources/codemirror/mode/css/css.js"></script>
 
-<script src="resources/codemirror/resources/codemirror/browser/eslint.js"></script>
+<!-- ESLint -->
+ <script src="resources/eslint/eslint.js"></script>
+<!-- <script src="http://eslint.org/js/app/eslint.js" ></script>-->
 
+<!-- Commons CodeMirror Lint -->
 <script src="resources/codemirror/addon/lint/lint.js"></script>
-
-<script src="resources/eslint/eslint.js"></script>
+<!-- CodeMirror Lint implementation with ESLint-->
 <script src="eslint-lint.js"></script>
 
 <style type="text/css">
@@ -34,7 +36,7 @@
 </div>
 
 <article>
-<h2>Linter Demo</h2>
+<h2>Linter Demo with ESLint</h2>
 
 
     <p><textarea id="code-js">var widgets = [];
