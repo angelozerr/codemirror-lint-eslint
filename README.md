@@ -12,16 +12,18 @@ You can play with the demo [index.html](https://github.com/angelozerr/codemirror
 To use [eslint-lint.js](https://github.com/angelozerr/codemirror-lint-eslint/blob/master/eslint-lint.js), you must declare your CodeMirror instance with 
 **javascript mode**, and activate **lint** (gutters & lint to true) like this :
 
+```javascript
 var editor = CodeMirror.fromTextArea(document.getElementById("code-js"), {
     lineNumbers: true,
     mode: "javascript",
     gutters: ["CodeMirror-lint-markers"],
     lint: true
 });
-  
+```
+
 and include several scripts (see [index.html](https://github.com/angelozerr/codemirror-lint-eslint/blob/master/index.html) to see the full scripts and CSS to include).
 
-* ESLint scripts :
+ * ESLint scripts :
 
 ```html 
 <script src="http://eslint.org/js/app/eslint.js" ></script> 
@@ -35,7 +37,7 @@ and include several scripts (see [index.html](https://github.com/angelozerr/code
 <script src="resources/codemirror/lib/codemirror.js"></script>
 ```
 
- * JavaScript mode 
+* JavaScript mode 
  
 ```html
 <script src="resources/codemirror/mode/javascript/javascript.js"></script> 
