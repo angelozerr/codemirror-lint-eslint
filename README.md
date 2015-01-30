@@ -26,10 +26,8 @@ and include several scripts (see [index.html](https://github.com/angelozerr/code
 ```html 
 <script src="http://eslint.org/js/app/eslint.js" ></script> 
 ```
-
-* CodeMirror scripts & CSS :
-  
-  * Commons Codemirror : 
+ 
+ * Commons Codemirror : 
 
 ```html
 <link rel=stylesheet href="resources/codemirror/doc/docs.css">
@@ -37,24 +35,24 @@ and include several scripts (see [index.html](https://github.com/angelozerr/code
 <script src="resources/codemirror/lib/codemirror.js"></script>
 ```
 
-  * JavaScript mode 
+ * JavaScript mode 
  
- ```html
+```html
 <script src="resources/codemirror/mode/javascript/javascript.js"></script> 
- ```
+```
  
-  * Commons Lint interface
+ * Commons Lint interface
  
- ```html
+```html
 <link rel="stylesheet" href="resources/codemirror/addon/lint/lint.css">
 <script src="resources/codemirror/addon/lint/lint.js"></script> 
- ```
+```
  
-  * Lint implementation with ESLint
+ * Lint implementation with ESLint
  
- ```html
+```html
 <script src="eslint-lint.js"></script>
- ```
+```
 
 ## Structure
 
@@ -63,5 +61,3 @@ The basic structure of the project is given in the following way:
 * `eslint-lint.js` the CodeMirror Lint addon which uses ESLint.
 * `index.html` the demo which uses ESLint with CodeMirror editor.
 * `resources` folder which contains CodeMirror & ESLint resources.
-
-
